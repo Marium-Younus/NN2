@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px 20px; 
+}
+h1{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 80px;
+   text-transform: uppercase;
+   color: brown;
+   padding: 10px;
+
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    color: aqua;
+}
+.container
+{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row
+{
+    gap: 15px;;
+    display: flex;
+}
+.col{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+} 
+/* for responsive */
+@media  screen and (max-width : 750px)
+{
+.row
+{
+   
+    flex-direction: column;
+}
+}
